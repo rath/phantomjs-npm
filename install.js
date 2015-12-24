@@ -374,7 +374,7 @@ function getDownloadUrl() {
 function getDownloadSpec() {
   var cdnUrl = process.env.npm_config_phantomjs_cdnurl ||
       process.env.PHANTOMJS_CDNURL ||
-      'https://bitbucket.org/ariya/phantomjs/downloads'
+      'https://github.com/rath/phantomjs/releases/download/2.0.0-edge'
   var downloadUrl = cdnUrl + '/phantomjs-' + helper.version + '-'
   var checksum = ''
 
@@ -388,7 +388,7 @@ function getDownloadSpec() {
     checksum = '814a438ca515c6f7b1b2259d0d5bc804'
   } else if (platform === 'darwin' || platform === 'openbsd' || platform === 'freebsd') {
     downloadUrl += 'macosx.zip'
-    checksum = 'fb850d56c033dd6e1142953904f62614'
+    checksum = '58c54b9a78a8d6e803a05b0a991f4c35'
   } else if (platform === 'win32') {
     downloadUrl += 'windows.zip'
     checksum = 'c5eed3aeb356ee597a457ab5b1bea870'
