@@ -1,16 +1,16 @@
 {
   "name": "phantomjs",
-  "version": "1.9.19",
+  "version": "2.0.0-edge",
   "keywords": [
     "phantomjs",
     "headless",
     "webkit"
   ],
   "description": "Headless WebKit with JS API",
-  "homepage": "https://github.com/Medium/phantomjs",
+  "homepage": "https://github.com/rath/phantomjs-npm",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Medium/phantomjs.git"
+    "url": "git://github.com/rath/phantomjs-npm.git"
   },
   "license": "Apache-2.0",
   "author": {
