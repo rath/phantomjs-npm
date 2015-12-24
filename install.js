@@ -382,7 +382,7 @@ function getDownloadSpec() {
   var arch = getTargetArch()
   if (platform === 'linux' && arch === 'x64') {
     downloadUrl += 'linux-x86_64.tar.bz2'
-    checksum = '4ea7aa79e45fbc487a63ef4788a18ef7'
+    checksum = 'b14d1ed94b1e4523d7440432c6f4c0d9'
   } else if (platform === 'linux' && arch == 'ia32') {
     downloadUrl += 'linux-i686.tar.bz2'
     checksum = '814a438ca515c6f7b1b2259d0d5bc804'
